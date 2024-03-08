@@ -1,28 +1,36 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Bitcoin Ticker App 🤑
 
+Welcome to my Bitcoin Ticker App project! This application serves as a convenient tool for tracking cryptocurrency prices, specifically tailored for those invested in the dynamic world of Bitcoin. Through the development process, I gained hands-on experience with both Cupertino and Material Design Widgets, integrating them seamlessly to offer a responsive and platform-adaptive user interface.
 
-# Bitcoin Ticker 🤑
+## Project Overview
 
-## Our Goal
+In this project, I constructed a cryptocurrency price tracker using www.coinapi.io , enabling users to stay updated with Bitcoin prices on the go. This application is not only a showcase of practical Flutter development skills but also an exploration of adapting UI components to fit the aesthetics and usability norms of different operating systems.
 
-The objective of this tutorial is to learn about using Cupertino and Material Widgets in parallel and providing a different user interface depending on the platform.
+## Getting Started
 
+### Prerequisites
 
-## What you will create
+Before you get started, ensure you have Flutter installed on your system. For guidance on setting up Flutter, refer to the [official Flutter documentation](https://flutter.dev/docs/get-started/install).
 
-We’re going to make a crypto currency price checking app. By the end of the module, you'll be able to monitor your bitcoin investents on the move!
+### Clone the Project
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/bitcoin-flutter-demo.gif)
+To get started with this project, clone the repository to your local machine:
 
-## What you will learn
+```bash
+git clone https://github.com/yourgithubusername/bitcoin-ticker.git
+cd bitcoin-ticker-flutter
+```
 
-- How to use the DropdownButton Widget from Material design.
-- How to loop through code using Dart for and for-in loops.
-- How to use Cupertino Widgets in your app.
-- How to check the platform your app is being run on to customise the UI for that platform.
-- Revise previous concepts by completing the challenges.
+### Run the App
+```bash
+flutter run
+```
+This command compiles the app and launches it on a connected device or emulator.
 
+##Key Learnings
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+*Dropdown Menus: Mastered integrating DropdownButton, a Material Design widget, to allow users to select from different cryptocurrencies.
+*Looping in Dart: Enhanced my understanding of iterating over data structures using for and for-in loops to dynamically populate UI components.
+*Platform-Specific UI: Learned to use Cupertino widgets alongside Material Design widgets to create a UI that adapts to the platform it's running on, ensuring a native look and feel on both iOS and Android.
+*Platform Detection: Implemented platform detection logic to customize the app's interface according to the operating system, enhancing the user experience.
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
